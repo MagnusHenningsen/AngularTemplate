@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-$primary-color: #333333;
+@import './components/variables/theme.scss';
 html,
 body {
     background-color: $primary-color;
@@ -7,4 +7,16 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   overflow-y: auto;
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: $primary-color;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+  }
 }
