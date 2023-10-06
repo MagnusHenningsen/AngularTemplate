@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     border-top: 1px solid white;
-    background-color: lighten($primary-color,10);
+    background-color: lighten($primary-color, 10);
     min-height: fit-content;
     width: 100%;
     padding-top: 25px;
@@ -26,6 +26,7 @@
     margin: auto;
 }
 .textbox {
+    background-color: $primary-color;
     display: flex;
     flex-direction: column;
     justify-content: center;

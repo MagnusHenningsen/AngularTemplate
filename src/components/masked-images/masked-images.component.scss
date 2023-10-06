@@ -1,0 +1,40 @@
+@import "./../variables/theme.scss";
+.main {
+    display: flex;
+    width: 100%;
+    min-height: fit-content;
+    background-color: lighten($primary-color,10);
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+}
+h1 {
+    font-size: 10vw;
+    margin:0;
+    background-image: url('../../assets/Images/background.jpeg');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.img {
+    position: relative;
+    background: url('../../assets/Images/background.jpeg');
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+}
+.img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background: url('../../assets/Images/splash.png') ;
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+}
