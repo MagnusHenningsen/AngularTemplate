@@ -14,7 +14,7 @@ import { MaskedImagesComponent } from '../components/masked-images/masked-images
     AppComponent,
     BackgroundComponent,
     TextboxComponent,
-    MenuComponent
+    MenuComponent,
     MaskedImagesComponent
   ],
   imports: [
