@@ -1,15 +1,14 @@
 @import "/src/components/variables/theme.scss";
 $menu-width: 250px;
-$menu-color: rgba(11, 157, 255, 0.82);
 .menu {
   min-width: fit-content;
   width: $menu-width;
   background-color: $primary-color;
-  color: $menu-color;
+  color: $secondary-color;
   position: sticky;
   top: 0;
   height: 100vh;
-  border-right: 1px solid $menu-color;
+  border-right: 1px solid $secondary-color;
   display: flex;
   flex-direction: column;
     align-items: center;
@@ -19,7 +18,7 @@ $menu-color: rgba(11, 157, 255, 0.82);
     width: 100vw;
     height: auto;
     border-right: none;
-    border-bottom: 1px solid $menu-color;
+    border-bottom: 1px solid $secondary-color;
   }
 
   ul {
@@ -27,7 +26,7 @@ $menu-color: rgba(11, 157, 255, 0.82);
     padding: 0;
     width: inherit;
     margin: 0;
-    margin-top: 50px;
+    margin-top: 75px;
     min-width: fit-content;
     width: $menu-width;
     display: flex;
