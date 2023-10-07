@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BackgroundComponent } from './../components/background/background.component';
 import { TextboxComponent } from './../components/textbox/textbox.component';
 import { MenuComponent } from '../components/menu/menu.component';
+import { MaskedImagesComponent } from '../components/masked-images/masked-images.component';
+
 
 @NgModule({
   declarations: [
@@ -13,6 +15,7 @@ import { MenuComponent } from '../components/menu/menu.component';
     BackgroundComponent,
     TextboxComponent,
     MenuComponent
+    MaskedImagesComponent
   ],
   imports: [
     BrowserModule,
