@@ -1,0 +1,14 @@
+.application-main {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 1000px) {
+        flex-direction: column;
+    }
+
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: fit-content;
+}

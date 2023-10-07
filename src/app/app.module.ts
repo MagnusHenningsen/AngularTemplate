@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BackgroundComponent } from './../components/background/background.component';
 import { TextboxComponent } from './../components/textbox/textbox.component';
+import { MenuComponent } from '../components/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BackgroundComponent,
-    TextboxComponent
+    TextboxComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
